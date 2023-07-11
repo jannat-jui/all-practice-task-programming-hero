@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section class="section">
+    <form class="">
+        <h5>Give your valuable Feedback</h5>
+        <fieldset>
+            <legend>Basic Information</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="fname">
+                            *First Name: 
+                            <input type="text" required>
+                        </label>
+                    </td>
+                    <td style="padding-left: 50px;">
+                        <label for="fname">
+                            *Last Name: 
+                            <input type="text" required>
+                        </label>
+                    </td>
+                </tr>
+                
+            </table>
+            <br>
+            <label for="email">
+                *Email address: 
+                <input type="email" name="" id="" required>
+            </label>
+            <br><br>
+            <label for="email">
+                *Phone Number: 
+                <input type="number" name="" id="" required>
+            </label>
+        </fieldset>
+
+        <br>
+        <fieldset>
+            <legend>Gender</legend>
+            <label for="gender">
+                
+                <input type="radio" name="gender" id="gender">
+                Male
+                <input type="radio" name="gender" id="gender">
+                Female
+            </label>
+        </fieldset><br>
+
+        <fieldset>
+            <legend>What is your experienced?</legend>
+            <label for="story"></label>
+            <select name="story" id="story">
+                <option value="Bad">Bad</option>
+                <option value="Bad">Poor</option>
+                <option value="Bad">Good</option>
+                <option value="Bad">Very Good</option>
+                <option value="Bad">Excellent</option>
+            </select>
+            
+        </fieldset><br>
+        <fieldset>
+            <legend>Comment</legend>
+            <textarea name="comment" id="comment" cols="80" rows="8"></textarea>
+        </fieldset><br>
+        <input class="button" type="submit" value="Submit">
+        <input class="button" type="reset" value="Reset">
+    </form>
+</section>
+</body>
+</html>

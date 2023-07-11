@@ -1,0 +1,24 @@
+h5{
+    text-align: center;
+    font-size: 25px;
+}
+select{
+    font-size: 20px;
+
+}
+.button{
+    font-size: large;
+    padding: 10px;
+    background-color: rgb(99, 97, 97);
+    color: white;
+    border-radius: 25px;
+    
+}
+*{
+    margin: 5px;
+    padding: 3px;
+
+}
+.section{
+    background-color: rgb(155, 160, 160);
+}

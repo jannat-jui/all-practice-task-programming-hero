@@ -1,0 +1,22 @@
+nav > ul > li{
+    display: inline;
+    text-decoration: none;
+    padding-left: 30px;
+}
+nav li > a{
+    text-decoration: none;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+}
+nav li .dropdown{
+    display: none;
+    position: absolute;
+
+}
+nav li:hover > .dropdown{
+    display: block;
+}
